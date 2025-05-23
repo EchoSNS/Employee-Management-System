@@ -38,7 +38,7 @@ A full-stack web application for managing employees using Angular 19 (frontend) 
 
 4. **Run the API**:
 
-   The API should be accessible at: `https://localhost:7072`
+   The API should be accessible at: `https://localhost:49531`
 
 ---
 
@@ -73,7 +73,7 @@ A full-stack web application for managing employees using Angular 19 (frontend) 
 ng serve
 ```
 
-Open in browser: [http://localhost:4200](http://localhost:4200)
+Open in browser: [http://localhost:4200](http://localhost:49531)
 
 ---
 
