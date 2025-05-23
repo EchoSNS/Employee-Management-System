@@ -64,7 +64,7 @@ Don't forget to execute the SQL query for stored procedures. (backend/EmployeeLi
    ```ts
    export const environment = {
      production: false,
-     apiUrl: 'https://localhost:7072'
+     apiUrl: 'https://localhost:49531'
    };
    ```
 
@@ -74,7 +74,7 @@ Don't forget to execute the SQL query for stored procedures. (backend/EmployeeLi
 ng serve
 ```
 
-Open in browser: [http://localhost:4200](http://localhost:49531)
+Open in browser: [http://localhost:4200](http://localhost:4200)
 
 ---
 
