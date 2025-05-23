@@ -35,7 +35,7 @@ A full-stack web application for managing employees using Angular 19 (frontend) 
    Add-Migration InitialCreate
    Update-Database
    ```
-Don't forget to execute the SQL query for stored procedures.
+Don't forget to execute the SQL query for stored procedures. (backend/EmployeeListAPI/StoredProcedures.sql)
 
 4. **Run the API**:
 
