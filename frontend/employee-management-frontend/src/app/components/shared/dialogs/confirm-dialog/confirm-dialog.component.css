@@ -1,0 +1,26 @@
+.confirm-dialog h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .confirm-dialog h2 mat-icon {
+      font-size: 24px;
+      width: 24px;
+      height: 24px;
+    }
+
+    mat-dialog-content {
+      min-width: 300px;
+      margin-bottom: 16px;
+    }
+
+    mat-dialog-content p {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    mat-dialog-actions {
+      gap: 8px;
+    }

@@ -1,0 +1,138 @@
+<div class="employee-form-container">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>
+            <div class="header-left">
+              <button mat-icon-button (click)="goBack()" class="back-btn">
+                <mat-icon>arrow_back</mat-icon>
+              </button>
+              <span class="page-title">{{ isEditMode ? 'Edit Employee' : 'Add New Employee' }}</span>
+            </div>
+          </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+          <div *ngIf="loading" class="loading-container">
+            <mat-spinner></mat-spinner>
+            <p>{{ isEditMode ? 'Loading employee data...' : 'Please wait...' }}</p>
+          </div>
+
+          <form *ngIf="!loading" [formGroup]="employeeForm" (ngSubmit)="onSubmit()" class="employee-form">
+            <div class="form-row">
+              <mat-form-field appearance="outline">
+                <mat-label>First Name</mat-label>
+                <input matInput formControlName="firstName">
+                <mat-error *ngIf="employeeForm.get('firstName')?.hasError('required')">
+                  First name is required
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('firstName')?.hasError('maxlength')">
+                  First name cannot exceed 100 characters
+                </mat-error>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Last Name</mat-label>
+                <input matInput formControlName="lastName">
+                <mat-error *ngIf="employeeForm.get('lastName')?.hasError('required')">
+                  Last name is required
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('lastName')?.hasError('maxlength')">
+                  Last name cannot exceed 100 characters
+                </mat-error>
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email" type="email">
+                <mat-error *ngIf="employeeForm.get('email')?.hasError('required')">
+                  Email is required
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('email')?.hasError('email')">
+                  Please enter a valid email address
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('email')?.hasError('maxlength')">
+                  Email cannot exceed 255 characters
+                </mat-error>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Phone Number</mat-label>
+                <input matInput formControlName="phoneNumber">
+                <mat-error *ngIf="employeeForm.get('phoneNumber')?.hasError('maxlength')">
+                  Phone number cannot exceed 20 characters
+                </mat-error>
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline">
+                <mat-label>Department</mat-label>
+                <mat-select formControlName="department">
+                  <mat-option *ngFor="let dept of departments" [value]="dept">
+                    {{ dept }}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="employeeForm.get('department')?.hasError('required')">
+                  Department is required
+                </mat-error>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Position</mat-label>
+                <input matInput formControlName="position">
+                <mat-error *ngIf="employeeForm.get('position')?.hasError('required')">
+                  Position is required
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('position')?.hasError('maxlength')">
+                  Position cannot exceed 100 characters
+                </mat-error>
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline">
+                <mat-label>Salary</mat-label>
+                <input matInput formControlName="salary" type="number">
+                <mat-error *ngIf="employeeForm.get('salary')?.hasError('required')">
+                  Salary is required
+                </mat-error>
+                <mat-error *ngIf="employeeForm.get('salary')?.hasError('min')">
+                  Salary must be greater than 0
+                </mat-error>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Hire Date</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="hireDate">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+                <mat-error *ngIf="employeeForm.get('hireDate')?.hasError('required')">
+                  Hire date is required
+                </mat-error>
+              </mat-form-field>
+            </div>
+
+            <div *ngIf="isEditMode" class="form-row">
+              <mat-checkbox formControlName="isActive">
+                Employee is Active
+              </mat-checkbox>
+            </div>
+
+            <div class="form-actions">
+              <button mat-button type="button" (click)="goBack()" [disabled]="submitting">
+                Cancel
+              </button>
+              <button mat-raised-button 
+                      color="primary" 
+                      type="submit" 
+                      [disabled]="employeeForm.invalid || submitting">
+                <mat-icon *ngIf="submitting">hourglass_empty</mat-icon>
+                {{ submitting ? 'Saving...' : (isEditMode ? 'Update Employee' : 'Create Employee') }}
+              </button>
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>

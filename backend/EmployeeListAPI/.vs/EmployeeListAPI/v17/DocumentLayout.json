@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\domain\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:domain\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\dtos\\employee\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\dtos\\employee\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\dtos\\employee\\employeelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\dtos\\employee\\employeelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\dtos\\employee\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\dtos\\employee\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\application\\dtos\\employee\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:application\\dtos\\employee\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\employeelistapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:employeelistapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|c:\\users\\yvans\\desktop\\employee list\\backend\\employeelistapi\\migrations\\20250523063515_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B5EE63-3929-47BE-851D-BFF101ECF6E9}|EmployeeListAPI.csproj|solutionrelative:migrations\\20250523063515_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:05:15.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Domain\\Common\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Domain\\Common\\ServiceResult.cs",
+              "RelativeToolTip": "Domain\\Common\\ServiceResult.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:04:34.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA1wAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:04:20.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:05:46.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:05:54.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T05:59:37.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T05:59:25.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T03:02:24.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:05:10.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:05:09.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\UpdateEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Employee\\UpdateEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\UpdateEmployeeDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\Employee\\UpdateEmployeeDTO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:05:04.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\CreateEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Employee\\CreateEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\CreateEmployeeDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\Employee\\CreateEmployeeDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:04:51.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeListAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\EmployeeListAPI.csproj",
+              "RelativeDocumentMoniker": "EmployeeListAPI.csproj",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\EmployeeListAPI.csproj",
+              "RelativeToolTip": "EmployeeListAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T06:29:08.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:15:04.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:05:02.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeListDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\EmployeeListDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Employee\\EmployeeListDTO.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Application\\DTOs\\Employee\\EmployeeListDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\Employee\\EmployeeListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:15:50.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StoredProcedures.sql",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\StoredProcedures.sql",
+              "RelativeDocumentMoniker": "StoredProcedures.sql",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\StoredProcedures.sql",
+              "RelativeToolTip": "StoredProcedures.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-23T07:45:48.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250523063515_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Migrations\\20250523063515_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250523063515_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Migrations\\20250523063515_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250523063515_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:35:16.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yvans\\Desktop\\Employee List\\backend\\EmployeeListAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T02:55:56.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

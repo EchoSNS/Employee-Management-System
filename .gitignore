@@ -1,0 +1,58 @@
+# --------------------------
+# .NET 8
+# --------------------------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+TestResults/
+*.nupkg
+*.snk
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+*.ide
+
+# Entity Framework Migrations
+Migrations/
+
+# dotnet watch
+**/Properties/launchSettings.json
+
+# --------------------------
+# Node / Angular 19
+# --------------------------
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*.local
+
+# IDEs
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Angular build artifacts
+/build/
+/out-tsc/
+/coverage/
+tsconfig.tsbuildinfo
+
+# Angular cache (CLI v13+)
+.angular/cache/
